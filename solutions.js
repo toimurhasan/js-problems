@@ -8,15 +8,7 @@
 
 
 // Problem 4: Find the Maximum Number
-function findMax(arr) {
-  let max = arr[0];
-  for (let num of arr) {
-    if (num > max) {
-      max = num;
-    }
-  }
-  return max;
-}
+
 
 // Problem 5: Remove Duplicates from an Array
 function removeDuplicates(arr) {
