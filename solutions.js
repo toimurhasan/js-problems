@@ -14,13 +14,7 @@
 
 
 // Problem 6: Sum of All Numbers in an Array
-function sumArray(arr) {
-  let sum = 0;
-  for (let num of arr) {
-    sum += num;
-  }
-  return sum;
-}
+
 
 // Problem 7: Find Even Numbers in an Array
 function findEven(arr) {
