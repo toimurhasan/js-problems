@@ -11,15 +11,7 @@
 
 
 // Problem 5: Remove Duplicates from an Array
-function removeDuplicates(arr) {
-  let unique = [];
-  for (let num of arr) {
-    if (!unique.includes(num)) {
-      unique.push(num);
-    }
-  }
-  return unique;
-}
+
 
 // Problem 6: Sum of All Numbers in an Array
 function sumArray(arr) {
