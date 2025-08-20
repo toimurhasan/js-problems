@@ -17,15 +17,7 @@
 
 
 // Problem 7: Find Even Numbers in an Array
-function findEven(arr) {
-  let evens = [];
-  for (let num of arr) {
-    if (num % 2 === 0) {
-      evens.push(num);
-    }
-  }
-  return evens;
-}
+
 
 // Problem 8: Capitalize First Letter of Each Word
 function capitalizeWords(str) {
