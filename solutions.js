@@ -2,16 +2,7 @@
 
 
 // Problem 2: Count Vowels in a String
-function countVowels(str) {
-  let vowels = "aeiou";
-  let count = 0;
-  for (let char of str.toLowerCase()) {
-    if (vowels.includes(char)) {
-      count++;
-    }
-  }
-  return count;
-}
+
 
 // Problem 3: Check for Palindrome
 function isPalindrome(str) {
